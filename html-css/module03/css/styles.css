@@ -1,0 +1,21 @@
+body { font-family: 'Playfair Display', serif;
+color: #626262;
+font-size: 14px;
+line-height: 24px
+}
+.top-menue {list-style: none;}
+.top-menue a { color: #626262;
+text-transform: uppercase; 
+text-decoration: none;
+line-height: 17px
+}
+.content {
+list-style: none;}
+.text-title {font-size: 30px;
+    line-height: 36px
+}
+span {color: #b4ad9e; text-transform: uppercase}
+button { 
+font-size: 20px;
+line-height: 24px}
+
