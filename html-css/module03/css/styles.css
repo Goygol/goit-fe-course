@@ -1,34 +1,51 @@
 body { font-family: 'Playfair Display', serif;
 background-color: #fff;
 width: 1200px; height: 2079;
-padding-top: 77px;
-padding-bottom: 70px;
+padding: 77px 150px 72px;
 color: #626262;
 font-size: 14px;
 line-height: 24px;
 }
 .top-header{
-text-align: center;
+
 margin: auto}
 .top-menue {list-style: none;
+    width: 901px;
+
 }
 .top-menue a { color: #626262;
 text-transform: uppercase; 
 text-decoration: none;
-line-height: 17px;
-margin-left: 20px;
 }
-.link {display: inline;
-width: 113,29px;
-height: 42,4px}
+.link {display: inline-block;
+text-align: center;
+margin-bottom: 100px}
 .top-menue a:hover{color: #16d1ef}
+.link1{margin-left: 164px;
+margin-right:120px}
+.link2{margin-right: 102px}
+.link3{margin-right: 93px}
 
 
 .content {
 list-style: none;}
 .text-title {font-size: 30px;
-    line-height: 36px
+    line-height: 36px;
+   
 }
+span{margin-top:30px;
+margin-bottom: 30px}
+.main1 {display: inline-block;
+    width: 421px; height: 580px;
+margin-right: 61px; margin-bottom: 130px;
+text-align:   }
+.text-title{margin-bottom: 40px}
+.main2 {display: inline-block;
+    width: 421px; height: 613px;
+margin-right: 61px; margin-bottom: 30px}
+.main3 {display: inline-block;
+    width: 421px; height: 613px;
+margin-right: 61px; margin-bottom: 30px}
 span {color: #b4ad9e; text-transform: uppercase;
 display: block}
 button { 
@@ -41,4 +58,4 @@ height: 59px;
 border: 2px; color: black;
 margin-left: 507px;
 margin-right: 530px}
-
+* {outline: 1px solid red}
