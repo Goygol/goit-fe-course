@@ -1,19 +1,20 @@
 *{margin: 0; padding: 0;}
-body{width: 1200px; height: 2079px;git }
+body{width: 1200px; height: 2079px;}
 .wrapper { font-family: 'Playfair Display', serif;
 background-color: #fff;
 box-sizing: border-box;
 width: 1200px; height: 2079px;
 padding: 77px 150px 65px;
-margin:0;
 color: #626262;
 font-size: 14px;
-line-height: 24px
+line-height: 24px;
+margin: 0 auto
  }
 .top-menue {
     width: 900px;
     text-align: center;
-    vertical-align: middle
+    vertical-align: middle;
+
 }
 .top-menue a { color: #626262;
 text-transform: uppercase; 
