@@ -1,0 +1,74 @@
+*{margin: 0; padding: 0;}
+
+.wrapper { font-family: 'Playfair Display', serif;
+background-color: #fff;
+box-sizing: border-box;
+width: 1200px; height: 2079px;
+padding: 77px 150px 65px;
+
+color: #626262;
+font-size: 14px;
+line-height: 24px;
+margin: 0 auto
+ }
+.top-menue {
+    width: 900px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.top-menue a { color: #626262;
+text-transform: uppercase; 
+text-decoration: none;
+}
+.link {display: inline-block;
+box-sizing: border-box;
+margin-bottom: 100px}
+.top-menue a:hover{color: #16d1ef}
+.link1{margin-right:120px}
+.link2{margin-right: 102px}
+.link3{margin-right: 93px;}
+.link4{margin-right: 0px
+}
+
+.content .main {display: inline-block;
+width: 420px; height: 509px;}
+
+.text-title {font-size: 30px;
+    line-height: 36px;  
+    padding-bottom: 40px; 
+    font-weight: normal
+}
+img {vertical-align:middle}
+span {padding-top:30px;
+padding-bottom: 30px;color: #b4ad9e; text-transform: uppercase;
+display: block; line-height: 17px
+}
+.main1 {margin-right: 60px; margin-bottom: 100px;
+ box-sizing: border-box;}
+
+.main2 {
+margin-left: -3.5px; margin-bottom: 100px}
+.main3 {
+margin-right: 60px; margin-bottom: 107px}
+.main4 {
+    margin-left: -3.5px; margin-bottom: 107px}
+.main5 {
+        margin-right: 60px; margin-bottom: 23px}
+.main6 {
+margin-left:-3.5px; margin-bottom: 23px}
+.text{height: 76.2px}
+
+button { 
+color:#626262;
+background-color: #fff;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+display: inline-block;
+width: 164px;
+height: 60px;
+border: 1px solid; color: black;
+margin-left: 358px;
+margin-right: 379px}
+
