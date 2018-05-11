@@ -1,5 +1,4 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
-*{outline: 1px solid red} 
 
 .wrapper {font-family: 'Open Sans', sans-serif; font-family: 'Roboto', sans-serif;
 background-color: #fff;
@@ -28,7 +27,7 @@ ul {
     list-style:none
 }
 
-h1 {margin: 0px}
+h1 {margin: 0px;}
 .h1 a {
     color: #555252;
     font-size: 30px;
@@ -48,16 +47,16 @@ h1 {margin: 0px}
   
 .menue-header-1 {
     float: left;
-    margin-right: 28px
+    margin-right: 35px
 }
 .menue-header-2 {
     float: left;
-    margin-right: 32px
+    margin-right: 35px
 }
     
 .menue-header-3 {
     float: left;
-    margin-right: 26px;
+    margin-right: 29px;
 }
 
 .menue-header-4 {
@@ -92,7 +91,7 @@ h2 {
     font-size: 48px;
     font-weight: bold;
     text-transform: uppercase;
-    text-align: center
+    text-align: center;
 }
 
 .sect1 {
@@ -109,13 +108,14 @@ h2::after{
     width: 164px;
     height: 7px;
     display: block;
-    margin: 22px auto 0px;
+    margin: 20px auto 0px;
 }
 .things .clearfix::after {
     display: table;
     content: '';
     clear: both
 }
+.pic {list-style: none}
 .pic {
     width: 255px;
     font-family: 'Roboto', sans-serif;
@@ -127,6 +127,20 @@ h2::after{
     margin-right: 30px;
     margin-bottom: 30px;
 }
+
+.pic::before {
+    height: 282px;
+    display: block;
+    content:'';
+   }
+.img1::before {background-image: url(../img/img1.jpg)}
+.img2::before {background-image: url(../img/img2.jpg)}
+.img3::before {background-image: url(../img/img3.jpg)}
+.img4::before {background-image: url(../img/img4.jpg)}
+.img5::before {background-image: url(../img/img5.jpg)}
+.img6::before {background-image: url(../img/img6.jpg)}
+.img7::before {background-image: url(../img/img7.jpg)}
+.img8::before {background-image: url(../img/img8.jpg)}
 
 .pic:hover .name {background-color:#4ec6ab; color: #fff}
 .pic:hover .price {background-color: #9cdfd0; color: #fff}
@@ -163,15 +177,19 @@ h2::after{
 }
 
 .main-info {
-    font-family: 'Open Sans', sans-serif
+    font-family: 'Open Sans', sans-serif;
+    color: #555252
 }
 
 
 .pic2 {
+    font-size: 0px;
     width: 347px;
     margin-right: 34.5px;
     float: left
 }
+
+.pic2 img {margin-bottom: 10px}
 .pic2:nth-child(3n) {
     margin-right: 0px 
 }
@@ -211,7 +229,6 @@ button {
     height: 51px;
     border-radius: 4px;
     border-width: 0px;
-    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 300;
 }
