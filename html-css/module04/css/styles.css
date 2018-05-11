@@ -1,4 +1,5 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
+*{outline: 1px solid red}
 
 .wrapper {font-family: 'Open Sans', sans-serif; font-family: 'Roboto', sans-serif;
 background-color: #fff;
