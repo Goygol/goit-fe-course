@@ -1,9 +1,10 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
 *{outline: 1px solid red}
 
-.wrapper {font-family: 'Open Sans', sans-serif; font-family: 'Roboto', sans-serif;
-background-color: #fff;
-padding: 35px 0px 81px;
+.wrapper {
+    font-family: 'Open Sans', sans-serif; font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    padding: 35px 0px 81px;
 }
 
 .content {width: 1110px;
@@ -16,7 +17,7 @@ margin: 0px auto}
 }
 
 .header {
-    width: 1110px; display: inline-block;
+    width: 1110px; 
     margin-bottom: 93px;
     }
 
@@ -143,8 +144,13 @@ h2::after{
 .img7::before {background-image: url(../img/img7.jpg)}
 .img8::before {background-image: url(../img/img8.jpg)}
 
-.pic:hover .name {background-color:#4ec6ab; color: #fff}
-.pic:hover .price {background-color: #9cdfd0; color: #fff}
+.pic:hover .name {
+    background-color:#4ec6ab; color: #fff
+}
+
+.pic:hover .price {
+    background-color: #9cdfd0; color: #fff
+}
 
 .pic:nth-child(4n) {
     margin-right: 0px
@@ -190,10 +196,14 @@ h2::after{
     float: left
 }
 
-.pic2 img {margin-bottom: 10px}
+.pic2 img {
+    margin-bottom: 10px
+}
+
 .pic2:nth-child(3n) {
     margin-right: 0px 
 }
+
 h3 {
     font-size: 18px;
     font-weight: 600;
@@ -233,4 +243,5 @@ button {
     font-size: 16px;
     font-weight: 300;
 }
+
 
