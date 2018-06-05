@@ -265,7 +265,7 @@ transition: color 0.2s linear
 .team-profile:hover > .liner {
     display: block;
     display: flex;
-    transform: translate(-9px, -9px);
+    transform: translate(-10px, -10px);
     transition: all 0.2s linear
 
 }
