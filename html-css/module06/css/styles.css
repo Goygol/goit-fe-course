@@ -12,6 +12,12 @@ a {
     text-decoration: none;
     color: #caf0e9;
     font-family: "Montserrat", sans-serif;
+    
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 30px
 }
 
 li {
@@ -25,35 +31,67 @@ li {
     justify-content:space-between;
     align-items: center;
     color: #caf0e9
-
-  
 }
 
 .top-menue  {
+    position: relative;
     width: 490px;
     display: flex;
     justify-content:space-between;
     text-transform: uppercase;
     font-size: 14px;
+    font-weight: 400
 }
 
 .list-item::after {
     content: '';
     display: block;
+    position: absolute;
+    top: 25px;
     background-color: rgb(243, 129, 129);
     height: 3px;
-    margin: 10px auto 0;
-    display: none
+    margin: auto 0;
+    transition: all 0.2s linear;
+    display: none 
+}
+.about::after {
+    left: 0px;
+    width: 50px;
 }
 
+.service::after {
+    left: 106px;
+    width: 60px;
+}
+
+.work::after {
+    left: 224px;
+    width: 45px;
+}
+
+.blog::after {
+    left: 325px;
+    width: 43px;
+    
+}
+.contact::after {
+    left: 423px;
+    width: 64px;
+    
+}
 .list-item:hover > a {
     color:  rgb(243, 129, 129);
-    transition: 0.2s linear
+    transition: color 0.2s linear
     
 }
 
 .list-item:hover::after {
      display: block;
+   
+}
+.service {
+    align-self: end;
+    
 }
 
   
@@ -156,13 +194,14 @@ li {
   
 }
   
-.about {
+.skils {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    color: #333333;
     margin-bottom: 20px;
+    color: #333333;
+   
 }
 
 .text {
